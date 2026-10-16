@@ -1,6 +1,7 @@
 # CSCI 1101 Programming Principles I - Fall 2026 - course materials
 
-ADA University. Instructor: Abbas Aliyev (ashaliyev@ada.edu.az).
+ADA University. Instructor of this section: Abbas Aliyev (ashaliyev@ada.edu.az).
+Materials by **Abbas Aliyev and Azar Aliyev**, who share the credit equally.
 
 The materials of this section of CSCI 1101, an introduction to programming
 in C for first-year students with no programming background: the syllabus,
@@ -11,13 +12,20 @@ The files are copies of the course's working files, updated after each
 class. If you find a mistake (a typo on a slide, a program that does not
 compile, a wrong answer in a practice test), open an issue.
 
-License: TODO (the instructor decides).
+## Licence
+
+Copyright (C) 2026 Abbas Aliyev and Azar Aliyev. The programs in `code/` and the installer are
+free software under the **GNU GPL v3 or later** ([`LICENSE-CODE`](LICENSE-CODE)).
+Everything else is under **CC BY-NC-SA 4.0** ([`LICENSE-MATERIALS`](LICENSE-MATERIALS)):
+you may share and adapt it for non-commercial use, if you credit the authors
+and share your version under the same licence. See [`LICENSE`](LICENSE).
 
 ## Where things are
 
 | Folder | What is in it |
 |---|---|
 | [`syllabus/`](syllabus/) | the syllabus (md, pdf, docx): schedule, grading, policies |
+| [`student-guide/`](student-guide/) | *Setting up a C compiler*, step by step, and `install-gcc-user.bat`, the one-click Windows installer it offers |
 | [`slides/`](slides/) | every class deck, pdf and pptx; the pptx has the student notes in its notes pane |
 | [`student-notes/`](student-notes/) | the same notes as readable pages, one per class, slide by slide |
 | [`code/`](code/) | every program shown in class (`class-NN/` plus `Class_NN_code.zip`). Each file starts with what it does, how to run it, and a *Try* list of changes |
